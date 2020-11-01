@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
+body{
+    background-color: #CDCDCD;s
+}
+
+
+/*header*/
+
+header{
+
+}
+
+#header_d{
+    display: flex;
+    background-color: #E7E7E7;
+    width: 1140px;
+    margin: auto;
+    justify-content: space-between;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 18px ;
+
+}
+
+.logo img{width: 61px; height: 60px; margin-left: 10px; }
+
+
+.menu{display: flex; align-items: center; margin: 12px 0px; }
+
+.menu ul{
+    display: flex;
+}
+
+
+.menu ul li{
+    list-style: none;
+}
+
+
+.nav_link{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    margin: 0px 22px;
+    transition: color .2s;
+}
+
+
+.menu_hrefs{
+    display: inline-block;
+}
+
+
+.language{
+    text-decoration: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+.am{
+    margin-left: 23px;
+}
+
+.nav_link:hover{
+    color: #FF5C00;
+    transition: color .2s;
+}
+
+/*hero*/
+
+
+
+
+.hero_d{
+    max-width: 1140px;
+    margin: auto;
+    background-image: url("images/hero_back.png" ) ;
+    background-repeat:no-repeat ;
+}
+
+#hero_d{
+
+
+    display: flex;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    justify-content: space-between;
+    max-width: 926px;
+    margin: auto;
+    width: 1140px;
+    padding: 56px 0px   ;
+}
+
+#hero_d h1{
+    color: white;
+    font-size: 90px;
+}
+
+#hero_d p{
+    font-size: 40px;
+    color: #909090;
+}
+
+
+/*info*/
+
+.information_block {
+
+
+}
+
+
+.information_block h3{
+    width: 1043px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 35px;
+    color: white;
+    line-height: 100px;
+    text-align: left;
+    margin: auto;
+}
+
+#info{
+    margin: auto;
+
+    width: 1140px;
+}
+
+
+.info_d  {
+    background-image: url("images/info_back.png");
+    background-repeat: no-repeat;
+}
+
+
+/*covid*/
+
+#covid_info{
+    background-image: url("images/covid_info_back.png");
+    background-repeat: no-repeat;
+    max-width: 1140px;
+    margin: auto;
+    margin-top: -161px ;
+}
+
+.covid_19 h3{
+    padding-top: 100px;
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+
+
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-bottom: 75px;
+}
+
+
+.covid_19 p{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 50px;
+    width: 888px    ;
+    margin: auto;
+    text-align: center;
+
+    color: #CDCDCD;
+    padding-bottom: 77px;
+}
+
+
+/*footer */
+
+
+footer{
+    background-color: #E5E5E5;
+    max-width: 1140px;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about h3{
+    font-family: 'Rubik', sans-serif;
+
+
+    font-size: 30px;
+    line-height: 36px;
+
+
+
+    color: #000000;
+}
+
+
+.about_p p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    color: #000000;
+    margin: 14px 0px;
+}
+
+.about_p{
+    margin-top: 45px;
+}
+
+
+.about{
+    margin-left: 45px;
+}
+
+
+.solid{
+    width: 4px;
+    height: 250px;
+    background-color: black;
+    margin-left: 249px;
+}
+
+
+.contact h3{
+    font-family: 'Rubik', sans-serif;
+
+    font-style: normal;
+
+    font-size: 30px;
+
+    color: #000000;
+}
+
+.contact{
+    margin-right: 83px;
+    margin-top: -94px;
+}
+
+.contact p{
+    margin-top: 45px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
